@@ -25,6 +25,7 @@ was used, the prompts actually given, and what the AI did, so the work can be as
 | — | 17 Nov 2026 (CI fix session) | “Add a policy, then choose its resource rules and permissions. ??” | Agent explained Cloudflare's token policy screen |
 | — | 17 Nov 2026 (CI fix session) | Pasted Cloudflare token summary + “perfect?” | Agent reviewed token scope and recommended trimming it to Cloudflare Pages: Edit |
 | — | 17 Nov 2026 (CI fix session) | “done till part 4 , apply the next steps” | Agent changed the CI deploy step to run from `web/` so Pages Functions deploy, then committed and pushed |
+| — | 17 Nov 2026 (CI fix session) | Pasted CI log: “✘ [ERROR] Must specify a project name.” | Agent fixed a missing space it had introduced in the deploy command (`dist--project-name`) and pushed |
 
 No other prompts were issued during development. The phase-specific work listed in 2.2 was **not** driven by separate
 prompts; it was carried out by the agent under the master prompt. To keep this record accurate, the table maps each
