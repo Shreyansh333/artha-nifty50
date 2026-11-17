@@ -20,6 +20,11 @@ was used, the prompts actually given, and what the AI did, so the work can be as
 |---|---|---|---|
 | 1 | Start of session | Master project prompt — “PROJECT: NIFTY 50 FINANCIAL INTELLIGENCE PLATFORM …” | Verbatim in [`prompts/01_master_prompt.md`](prompts/01_master_prompt.md) |
 | 2+ | Deployment stage | Any follow-up instructions (e.g. account authorisation for GitHub / Cloudflare) | Append below in the same format |
+| — | 17 Nov 2026 (CI fix session) | “my last git commit was a failure why?” | Agent diagnosed the failing *Deploy to Cloudflare Pages* step in GitHub Actions |
+| — | 17 Nov 2026 (CI fix session) | “full steps” | Agent gave step-by-step setup for the Cloudflare API token and GitHub secrets |
+| — | 17 Nov 2026 (CI fix session) | “Add a policy, then choose its resource rules and permissions. ??” | Agent explained Cloudflare's token policy screen |
+| — | 17 Nov 2026 (CI fix session) | Pasted Cloudflare token summary + “perfect?” | Agent reviewed token scope and recommended trimming it to Cloudflare Pages: Edit |
+| — | 17 Nov 2026 (CI fix session) | “done till part 4 , apply the next steps” | Agent changed the CI deploy step to run from `web/` so Pages Functions deploy, then committed and pushed |
 
 No other prompts were issued during development. The phase-specific work listed in 2.2 was **not** driven by separate
 prompts; it was carried out by the agent under the master prompt. To keep this record accurate, the table maps each

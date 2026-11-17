@@ -75,4 +75,5 @@ jobs:
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          command: pages deploy web/dist --project-name=${{ vars.CF_PAGES_PROJECT || 'artha-nifty50' }} --branch=main --commit-dirty=true
+          workingDirectory: web
+          command: pages deploy dist--project-name=${{ vars.CF_PAGES_PROJECT || 'artha-nifty50' }} --branch=main --commit-dirty=true
