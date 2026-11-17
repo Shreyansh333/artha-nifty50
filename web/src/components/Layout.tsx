@@ -7,6 +7,7 @@ import { CommandPalette } from "./CommandPalette";
 import { GlobalControls, ThemeToggle, type ControlKey } from "./GlobalControls";
 import { useMeta } from "../lib/data";
 import { useSettings } from "../lib/store";
+import { useLive } from "../lib/live";
 import { ago, fmtDate } from "../lib/format";
 import { cx } from "./ui";
 
@@ -49,16 +50,19 @@ function Logo() {
 
 function Freshness() {
   const { data } = useMeta();
+  const live = useLive();
   if (!data) return null;
+  const hasLive = !!live.fetchedAt;
   return (
     <div className="rounded-xl border border-line bg-raised/50 p-3 text-2xs leading-relaxed text-ink3">
       <div className="mb-1 flex items-center gap-1.5 font-medium text-ink2">
         <span className="relative flex h-1.5 w-1.5"><span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-up opacity-60" /><span className="relative inline-flex h-1.5 w-1.5 rounded-full bg-up" /></span>
-        End-of-day data
+        {hasLive ? "Live quotes" : live.loading ? "Fetching live data…" : "End-of-day data"}
       </div>
-      Prices as of <span className="text-ink2">{fmtDate(data.price_as_of)}</span><br />
-      Dataset built {ago(data.generated_at)}<br />
-      Source: Yahoo Finance (yfinance, unofficial). Not real-time.
+      {hasLive && <>Live quotes fetched <span className="text-ink2">{ago(live.fetchedAt!)}</span><br /></>}
+      {live.error && <><span className="text-down">Live fetch failed</span> · using static data<br /></>}
+      Fundamentals as of <span className="text-ink2">{fmtDate(data.price_as_of)}</span><br />
+      Source: Yahoo Finance. {hasLive ? "Quotes delayed ~15 min." : "Not real-time."}
     </div>
   );
 }
@@ -68,6 +72,9 @@ export function Layout({ children }: { children: ReactNode }) {
   const [palette, setPalette] = useState(false);
   const [mobileNav, setMobileNav] = useState(false);
   const { theme, recent } = useSettings();
+
+  // fetch live quotes on mount
+  useEffect(() => { useLive.getState().fetch(); }, []);
 
   // theme application (supports "system")
   useEffect(() => {

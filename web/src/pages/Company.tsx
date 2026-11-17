@@ -3,6 +3,7 @@ import { Link, NavLink, useParams } from "react-router-dom";
 import { AlertTriangle, ExternalLink, FileSpreadsheet, GitCompare, Loader2 } from "lucide-react";
 import { useCompany, useUniverse } from "../lib/data";
 import { useSettings, MAX_COMPARE } from "../lib/store";
+import { useLive } from "../lib/live";
 import { Badge, Delta, ErrorState, Skeleton, cx } from "../components/ui";
 import { fmtDate, money, num, price, shortName } from "../lib/format";
 import type { Company } from "../lib/types";
@@ -80,7 +81,13 @@ function Header({ c }: { c: Company }) {
   const s = useSettings();
   const inCmp = s.compare.includes(c.symbol);
   const [busy, setBusy] = useState(false);
-  const snap = c.snapshot;
+  const lq = useLive((s) => s.quotes[c.symbol]);
+  const snap = lq?.price != null
+    ? { ...c.snapshot, price: lq.price, change: lq.change, high_52w: lq.fiftyTwoWeekHigh ?? c.snapshot.high_52w, low_52w: lq.fiftyTwoWeekLow ?? c.snapshot.low_52w }
+    : c.snapshot;
+  const liveRet1D = lq?.changePct ?? c.market.returns?.["1D"];
+  const liveCap = lq?.marketCap ?? c.valuation.market_cap;
+  const isLive = lq?.price != null;
   const lo = snap.low_52w ?? 0, hi = snap.high_52w ?? 0, p = snap.price ?? 0;
   const pos = hi > lo ? ((p - lo) / (hi - lo)) * 100 : 50;
 
@@ -112,9 +119,9 @@ function Header({ c }: { c: Company }) {
           <div className="num text-4xl font-medium">{price(snap.price)}</div>
           <div className="mt-1 flex items-center justify-end gap-2 text-sm">
             <span className={cx("num", (snap.change ?? 0) >= 0 ? "text-up" : "text-down")}>{(snap.change ?? 0) >= 0 ? "+" : ""}{num(snap.change, 2)}</span>
-            <Delta v={c.market.returns?.["1D"]} />
+            <Delta v={liveRet1D} />
           </div>
-          <div className="mt-1 text-2xs text-ink3">Close {fmtDate(snap.last_date)} · EOD · Mkt cap {money(c.valuation.market_cap, s.unit)}</div>
+          <div className="mt-1 text-2xs text-ink3">{isLive ? "Live" : `Close ${fmtDate(snap.last_date)} · EOD`} · Mkt cap {money(liveCap, s.unit)}</div>
         </div>
       </div>
       <div className="mt-5 flex flex-wrap items-end justify-between gap-4">

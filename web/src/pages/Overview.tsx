@@ -4,6 +4,7 @@ import type { EChartsOption } from "echarts";
 import { ArrowRight, Database, TrendingDown, TrendingUp } from "lucide-react";
 import { api, useAsync, useMeta, useSectors, useUniverse } from "../lib/data";
 import { useSettings } from "../lib/store";
+import { useLive, type LiveQuote } from "../lib/live";
 import { ChartCard } from "../charts/ChartCard";
 import { EChart } from "../charts/EChart";
 import { base, categoryAxis, divergingColor, textOn, timeAxis, tokens, valueAxis, MONO } from "../charts/theme";
@@ -17,6 +18,21 @@ type Win = "1D" | "1W" | "1M" | "3M" | "YTD" | "1Y" | "3Y";
 const WINS: Win[] = ["1D", "1W", "1M", "3M", "YTD", "1Y", "3Y"];
 const CAP: Record<Win, number> = { "1D": 0.03, "1W": 0.05, "1M": 0.08, "3M": 0.15, YTD: 0.25, "1Y": 0.3, "3Y": 0.6 };
 
+function applyLive(rows: UniverseRow[], quotes: Record<string, LiveQuote>): UniverseRow[] {
+  if (!Object.keys(quotes).length) return rows;
+  return rows.map((r) => {
+    const q = quotes[r.symbol];
+    if (!q || q.price == null) return r;
+    const priceDelta = q.changePct;
+    return {
+      ...r,
+      snapshot: { ...r.snapshot, price: q.price, change: q.change, high_52w: q.fiftyTwoWeekHigh ?? r.snapshot.high_52w, low_52w: q.fiftyTwoWeekLow ?? r.snapshot.low_52w },
+      valuation: { ...r.valuation, market_cap: q.marketCap ?? r.valuation.market_cap },
+      returns: { ...r.returns, "1D": priceDelta ?? r.returns["1D"] },
+    };
+  });
+}
+
 export default function Overview() {
   const uni = useUniverse();
   const sectors = useSectors();
@@ -27,12 +43,22 @@ export default function Overview() {
   const [win, setWin] = useState<Win>("1D");
   const nav = useNavigate();
   const t = tokens();
+  const live = useLive();
 
-  const rows = useMemo(() => filterBySector(uni.data ?? [], s.sectors), [uni.data, s.sectors]);
+  const rawRows = useMemo(() => filterBySector(uni.data ?? [], s.sectors), [uni.data, s.sectors]);
+  const rows = useMemo(() => applyLive(rawRows, live.quotes), [rawRows, live.quotes]);
   const range = rangeFor(idxPx.data, s.range, s.from, s.to);
 
   if (uni.error) return <ErrorState error={uni.error} />;
   if (!uni.data || !idx.data) return <OverviewSkeleton />;
+
+  const liveIdx = live.quotes["NIFTY50"];
+  const ix0 = idx.data;
+  const ix = liveIdx?.price != null ? {
+    ...ix0,
+    snapshot: { ...ix0.snapshot, price: liveIdx.price, change: liveIdx.change },
+    returns: { ...ix0.returns, "1D": liveIdx.changePct ?? ix0.returns["1D"] },
+  } : ix0;
 
   const ret = (r: UniverseRow) => (r.returns as Returns)[win] ?? null;
   const ranked = rows.filter((r) => isNum(ret(r))).sort((a, b) => ret(b)! - ret(a)!);
@@ -43,7 +69,6 @@ export default function Overview() {
   const above200 = rows.filter((r) => r.snapshot.price && r.snapshot.ma200 && r.snapshot.price > r.snapshot.ma200).length;
   const totalCap = rows.reduce((a, r) => a + (r.valuation.market_cap ?? 0), 0);
   const medPE = median(rows.map((r) => r.valuation.pe));
-  const ix = idx.data;
 
   // ---------------- index chart
   let idxOption: EChartsOption = {};
@@ -147,7 +172,7 @@ export default function Overview() {
         <div className="grid gap-6 lg:grid-cols-[minmax(0,340px)_1fr]">
           <div className="flex flex-col justify-between gap-5">
             <div>
-              <div className="eyebrow flex items-center gap-2">NSE · NIFTY 50 Index <Badge>EOD · {fmtDate(ix.snapshot.last_date)}</Badge></div>
+              <div className="eyebrow flex items-center gap-2">NSE · NIFTY 50 Index <Badge>{liveIdx?.price != null ? "LIVE" : "EOD"} · {fmtDate(ix.snapshot.last_date)}</Badge></div>
               <div className="mt-3 font-display text-6xl leading-none tracking-tight">{num(ix.snapshot.price, 2)}</div>
               <div className="mt-2 flex items-center gap-3 text-sm">
                 <span className={cx("num", (ix.snapshot.change ?? 0) >= 0 ? "text-up" : "text-down")}>{(ix.snapshot.change ?? 0) >= 0 ? "+" : ""}{num(ix.snapshot.change, 2)}</span>
@@ -182,7 +207,7 @@ export default function Overview() {
           { l: "Breadth today", v: <span><span className="text-up">{adv}▲</span> <span className="text-ink3">/</span> <span className="text-down">{dec}▼</span></span>, sub: "Advancers / decliners, last session" },
           { l: "Above 200-DMA", v: `${above200} / ${rows.length}`, sub: pct(rows.length ? above200 / rows.length : null, 0) + " in long-term uptrend" },
           { l: "Median P/E", v: mult(medPE), sub: "TTM where available" },
-          { l: "Data freshness", v: meta ? ago(meta.generated_at) : "—", sub: meta ? `Prices to ${fmtDate(meta.price_as_of)}` : "" },
+          { l: "Data freshness", v: live.fetchedAt ? ago(live.fetchedAt) : meta ? ago(meta.generated_at) : "—", sub: live.fetchedAt ? "Live quotes · ~15 min delay" : meta ? `Prices to ${fmtDate(meta.price_as_of)}` : "" },
         ].map((k) => (
           <div key={k.l} className="card p-4"><Stat label={k.l} value={k.v} sub={k.sub} /></div>
         ))}
