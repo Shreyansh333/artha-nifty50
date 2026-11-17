@@ -4,7 +4,7 @@ An institutional-style financial research platform for the 50 constituents of In
 combines market data, a 34-KPI financial analysis engine, company comparison, rule-based financial
 intelligence and formula-driven Excel exports, refreshed automatically after every trading day.
 
-**Live site:** _to be added once deployment is verified_ · **Data:** Yahoo Finance via yfinance (unofficial; end-of-day, not real-time)
+**Live site:** [artha-nifty50.pages.dev](https://artha-nifty50.pages.dev) · **Data:** Yahoo Finance via yfinance (unofficial; end-of-day, not real-time)
 
 > MBA academic project. Built with the AI coding agent Claude Code — see [`docs/AI_USAGE.md`](docs/AI_USAGE.md) for the
 > tool, model, the exact prompt used and an honest account of the AI's contribution.

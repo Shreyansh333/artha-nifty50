@@ -49,4 +49,7 @@ All entries 17 November 2026 (single Claude Code session). Times omitted; order 
 - Bundle: ECharts switched to modular imports (342 → 220 KB gzipped); ExcelJS lazy-loaded.
 
 ## Phase 8 — Hosting
-- See `DEPLOYMENT.md`. Status recorded in the README once the public URL is verified.
+- Cloudflare Pages project `artha-nifty50` created and deployed from `web/dist`.
+- Production URL verified: https://artha-nifty50.pages.dev
+- GitHub repository: https://github.com/Shreyansh333/artha-nifty50
+- See `DEPLOYMENT.md` for secrets and automatic update setup.
