@@ -1,0 +1,78 @@
+name: Update data & deploy
+
+# Weekdays after NSE close (15:30 IST = 10:00 UTC) + manual runs + code pushes to main.
+on:
+  schedule:
+    - cron: "45 11 * * 1-5"
+  workflow_dispatch:
+    inputs:
+      full_refresh:
+        description: "Force a full re-download of prices and statements"
+        type: boolean
+        default: false
+  push:
+    branches: [main]
+    paths-ignore: ["docs/**", "**.md"]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-and-deploy
+  cancel-in-progress: false
+
+jobs:
+  pipeline:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: pipeline/requirements.txt
+
+      - name: Install pipeline dependencies
+        run: pip install -r pipeline/requirements.txt
+
+      - name: Unit tests (KPI engine)
+        run: python -m pytest pipeline/tests -q
+
+      - name: Fetch data (incremental)
+        # Code pushes reuse the committed cache; scheduled/manual runs refresh it from Yahoo.
+        if: github.event_name != 'push'
+        run: python pipeline/run.py fetch ${{ inputs.full_refresh && '--full' || '' }}
+
+      - name: Build analytics & Excel workbook
+        run: python pipeline/run.py build && python pipeline/run.py excel
+
+      - name: Verify workbook formulas (independent recalculation)
+        run: python pipeline/tests/verify_workbook.py "${{ runner.temp }}"
+
+      - name: Commit refreshed cache
+        if: github.event_name != 'push'
+        run: |
+          git config user.name "artha-data-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/cache data/universe
+          git diff --cached --quiet || git commit -m "data: refresh $(date -u +%Y-%m-%dT%H:%MZ)"
+          git push
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: web/package-lock.json
+
+      - name: Build web app
+        working-directory: web
+        run: npm ci && npm run build
+
+      - name: Deploy to Cloudflare Pages
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          command: pages deploy web/dist --project-name=${{ vars.CF_PAGES_PROJECT || 'artha-nifty50' }} --branch=main --commit-dirty=true

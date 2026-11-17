@@ -1,0 +1,1202 @@
+{
+ "ADANIENT.NS": {
+  "info": {
+   "retrieved_at": "2026-11-17T14:03:46+00:00"
+  },
+  "prices": {
+   "first": "2002-07-01",
+   "last": "2026-11-17",
+   "mode": "full",
+   "retrieved_at": "2026-11-17T14:03:44+00:00",
+   "rows": 6053
+  },
+  "statements": {
+   "periods": {
+    "balance_annual": 5,
+    "balance_quarterly": 4,
+    "cashflow_annual": 5,
+    "cashflow_quarterly": 0,
+    "income_annual": 4,
+    "income_quarterly": 7
+   },
+   "retrieved_at": "2026-11-17T14:03:45+00:00"
+  }
+ },
+ "ADANIPORTS.NS": {
+  "info": {
+   "retrieved_at": "2026-11-17T14:03:46+00:00"
+  },
+  "prices": {
+   "first": "2007-11-27",
+   "last": "2026-11-17",
+   "mode": "full",
+   "retrieved_at": "2026-11-17T14:03:43+00:00",
+   "rows": 4677
+  },
+  "statements": {
+   "periods": {
+    "balance_annual": 5,
+    "balance_quarterly": 3,
+    "cashflow_annual": 5,
+    "cashflow_quarterly": 0,
+    "income_annual": 5,
+    "income_quarterly": 6
+   },
+   "retrieved_at": "2026-11-17T14:03:45+00:00"
+  }
+ },
+ "APOLLOHOSP.NS": {
+  "info": {
+   "retrieved_at": "2026-11-17T14:03:49+00:00"
+  },
+  "prices": {
+   "first": "2002-07-01",
+   "last": "2026-11-17",
+   "mode": "full",
+   "retrieved_at": "2026-11-17T14:03:44+00:00",
+   "rows": 6051
+  },
+  "statements": {
+   "periods": {
+    "balance_annual": 5,
+    "balance_quarterly": 3,
+    "cashflow_annual": 5,
+    "cashflow_quarterly": 0,
+    "income_annual": 5,
+    "income_quarterly": 6
+   },
+   "retrieved_at": "2026-11-17T14:03:48+00:00"
+  }
+ },
+ "ASIANPAINT.NS": {
+  "info": {
+   "retrieved_at": "2026-11-17T14:03:46+00:00"
+  },
+  "prices": {
+   "first": "2002-07-01",
+   "last": "2026-11-17",
+   "mode": "full",
+   "retrieved_at": "2026-11-17T14:03:44+00:00",
+   "rows": 6051
+  },
+  "statements": {
+   "periods": {
+    "balance_annual": 5,
+    "balance_quarterly": 4,
+    "cashflow_annual": 5,
+    "cashflow_quarterly": 0,
+    "income_annual": 4,
+    "income_quarterly": 5
+   },
+   "retrieved_at": "2026-11-17T14:03:46+00:00"
+  }
+ },
+ "AXISBANK.NS": {
+  "info": {
+   "retrieved_at": "2026-11-17T14:03:52+00:00"
+  },
+  "prices": {
+   "first": "1998-11-27",
+   "last": "2026-11-17",
+   "mode": "full",
+   "retrieved_at": "2026-11-17T14:03:47+00:00",
+   "rows": 6987
+  },
+  "statements": {
+   "periods": {
+    "balance_annual": 5,
+    "balance_quarterly": 6,
+    "cashflow_annual": 4,
+    "cashflow_quarterly": 0,
+    "income_annual": 5,
+    "income_quarterly": 5
+   },
+   "retrieved_at": "2026-11-17T14:03:51+00:00"
+  }
+ },
+ "BAJAJ-AUTO.NS": {
+  "info": {
+   "retrieved_at": "2026-11-17T14:03:51+00:00"
+  },
+  "prices": {
+   "first": "2002-07-01",
+   "last": "2026-11-17",
+   "mode": "full",
+   "retrieved_at": "2026-11-17T14:03:48+00:00",
+   "rows": 6054
+  },
+  "statements": {
+   "periods": {
+    "balance_annual": 5,
+    "balance_quarterly": 4,
+    "cashflow_annual": 4,
+    "cashflow_quarterly": 0,
+    "income_annual": 4,
+    "income_quarterly": 5
+   },
+   "retrieved_at": "2026-11-17T14:03:51+00:00"
+  }
+ },
+ "BAJAJFINSV.NS": {
+  "info": {
+   "retrieved_at": "2026-11-17T14:03:52+00:00"
+  },
+  "prices": {
+   "first": "2002-08-12",
+   "last": "2026-11-17",
+   "mode": "full",
+   "retrieved_at": "2026-11-17T14:03:48+00:00",
+   "rows": 6020
+  },
+  "statements": {
+   "periods": {
+    "balance_annual": 5,
+    "balance_quarterly": 4,
+    "cashflow_annual": 5,
+    "cashflow_quarterly": 0,
+    "income_annual": 4,
+    "income_quarterly": 7
+   },
+   "retrieved_at": "2026-11-17T14:03:51+00:00"
+  }
+ },
+ "BAJFINANCE.NS": {
+  "info": {
+   "retrieved_at": "2026-11-17T14:03:53+00:00"
+  },
+  "prices": {
+   "first": "2002-07-01",
+   "last": "2026-11-17",
+   "mode": "full",
+   "retrieved_at": "2026-11-17T14:03:50+00:00",
+   "rows": 6051
+  },
+  "statements": {
+   "periods": {
+    "balance_annual": 4,
+    "balance_quarterly": 4,
+    "cashflow_annual": 5,
+    "cashflow_quarterly": 0,
+    "income_annual": 4,
+    "income_quarterly": 5
+   },
+   "retrieved_at": "2026-11-17T14:03:53+00:00"
+  }
+ },
+ "BEL.NS": {
+  "info": {
+   "retrieved_at": "2026-11-17T14:03:55+00:00"
+  },
+  "prices": {
+   "first": "2002-07-01",
+   "last": "2026-11-17",
+   "mode": "full",
+   "retrieved_at": "2026-11-17T14:03:52+00:00",
+   "rows": 6051
+  },
+  "statements": {
+   "periods": {
+    "balance_annual": 5,
+    "balance_quarterly": 3,
+    "cashflow_annual": 5,
+    "cashflow_quarterly": 0,
+    "income_annual": 4,
+    "income_quarterly": 5
+   },
+   "retrieved_at": "2026-11-17T14:03:55+00:00"
+  }
+ },
+ "BHARTIARTL.NS": {
+  "info": {
+   "retrieved_at": "2026-11-17T14:03:55+00:00"
+  },
+  "prices": {
+   "first": "2002-07-01",
+   "last": "2026-11-17",
+   "mode": "full",
+   "retrieved_at": "2026-11-17T14:03:52+00:00",
+   "rows": 6051
+  },
+  "statements": {
+   "periods": {
+    "balance_annual": 5,
+    "balance_quarterly": 5,
+    "cashflow_annual": 5,
+    "cashflow_quarterly": 6,
+    "income_annual": 5,
+    "income_quarterly": 5
+   },
+   "retrieved_at": "2026-11-17T14:03:55+00:00"
+  }
+ },
+ "BSE.NS": {
+  "info": {
+   "retrieved_at": "2026-11-17T14:03:55+00:00"
+  },
+  "prices": {
+   "first": "2017-02-03",
+   "last": "2026-11-17",
+   "mode": "full",
+   "retrieved_at": "2026-11-17T14:03:52+00:00",
+   "rows": 2417
+  },
+  "statements": {
+   "periods": {
+    "balance_annual": 5,
+    "balance_quarterly": 4,
+    "cashflow_annual": 5,
+    "cashflow_quarterly": 0,
+    "income_annual": 4,
+    "income_quarterly": 6
+   },
+   "retrieved_at": "2026-11-17T14:03:54+00:00"
+  }
+ },
+ "CIPLA.NS": {
+  "info": {
+   "retrieved_at": "2026-11-17T14:03:57+00:00"
+  },
+  "prices": {
+   "first": "1996-01-01",
+   "last": "2026-11-17",
+   "mode": "full",
+   "retrieved_at": "2026-11-17T14:03:54+00:00",
+   "rows": 7748
+  },
+  "statements": {
+   "periods": {
+    "balance_annual": 5,
+    "balance_quarterly": 3,
+    "cashflow_annual": 5,
+    "cashflow_quarterly": 0,
+    "income_annual": 4,
+    "income_quarterly": 7
+   },
+   "retrieved_at": "2026-11-17T14:03:56+00:00"
+  }
+ },
+ "COALINDIA.NS": {
+  "info": {
+   "retrieved_at": "2026-11-17T14:03:58+00:00"
+  },
+  "prices": {
+   "first": "2010-11-04",
+   "last": "2026-11-17",
+   "mode": "full",
+   "retrieved_at": "2026-11-17T14:03:55+00:00",
+   "rows": 3954
+  },
+  "statements": {
+   "periods": {
+    "balance_annual": 5,
+    "balance_quarterly": 3,
+    "cashflow_annual": 5,
+    "cashflow_quarterly": 0,
+    "income_annual": 4,
+    "income_quarterly": 6
+   },
+   "retrieved_at": "2026-11-17T14:03:58+00:00"
+  }
+ },
+ "DRREDDY.NS": {
+  "info": {
+   "retrieved_at": "2026-11-17T14:04:00+00:00"
+  },
+  "prices": {
+   "first": "1996-01-01",
+   "last": "2026-11-17",
+   "mode": "full",
+   "retrieved_at": "2026-11-17T14:03:56+00:00",
+   "rows": 7746
+  },
+  "statements": {
+   "periods": {
+    "balance_annual": 5,
+    "balance_quarterly": 7,
+    "cashflow_annual": 5,
+    "cashflow_quarterly": 7,
+    "income_annual": 5,
+    "income_quarterly": 7
+   },
+   "retrieved_at": "2026-11-17T14:04:00+00:00"
+  }
+ },
+ "EICHERMOT.NS": {
+  "info": {
+   "retrieved_at": "2026-11-17T14:03:58+00:00"
+  },
+  "prices": {
+   "first": "1996-01-01",
+   "last": "2026-11-17",
+   "mode": "full",
+   "retrieved_at": "2026-11-17T14:03:56+00:00",
+   "rows": 7746
+  },
+  "statements": {
+   "periods": {
+    "balance_annual": 5,
+    "balance_quarterly": 4,
+    "cashflow_annual": 4,
+    "cashflow_quarterly": 0,
+    "income_annual": 5,
+    "income_quarterly": 6
+   },
+   "retrieved_at": "2026-11-17T14:03:58+00:00"
+  }
+ },
+ "ETERNAL.NS": {
+  "info": {
+   "retrieved_at": "2026-11-17T14:04:01+00:00"
+  },
+  "prices": {
+   "first": "2021-07-23",
+   "last": "2026-11-17",
+   "mode": "full",
+   "retrieved_at": "2026-11-17T14:03:57+00:00",
+   "rows": 1315
+  },
+  "statements": {
+   "periods": {
+    "balance_annual": 5,
+    "balance_quarterly": 3,
+    "cashflow_annual": 5,
+    "cashflow_quarterly": 0,
+    "income_annual": 5,
+    "income_quarterly": 5
+   },
+   "retrieved_at": "2026-11-17T14:04:00+00:00"
+  }
+ },
+ "EURINR=X": {
+  "prices": {
+   "first": "2003-12-01",
+   "last": "2026-11-17",
+   "mode": "full",
+   "retrieved_at": "2026-11-17T14:09:51+00:00",
+   "rows": 5957
+  }
+ },
+ "GBPINR=X": {
+  "prices": {
+   "first": "2006-05-16",
+   "last": "2026-11-17",
+   "mode": "full",
+   "retrieved_at": "2026-11-17T14:09:52+00:00",
+   "rows": 5315
+  }
+ },
+ "GRASIM.NS": {
+  "info": {
+   "retrieved_at": "2026-11-17T14:04:02+00:00"
+  },
+  "prices": {
+   "first": "2002-07-01",
+   "last": "2026-11-17",
+   "mode": "full",
+   "retrieved_at": "2026-11-17T14:03:59+00:00",
+   "rows": 6051
+  },
+  "statements": {
+   "periods": {
+    "balance_annual": 5,
+    "balance_quarterly": 4,
+    "cashflow_annual": 5,
+    "cashflow_quarterly": 0,
+    "income_annual": 5,
+    "income_quarterly": 6
+   },
+   "retrieved_at": "2026-11-17T14:04:02+00:00"
+  }
+ },
+ "HCLTECH.NS": {
+  "info": {
+   "retrieved_at": "2026-11-17T14:04:02+00:00"
+  },
+  "prices": {
+   "first": "2002-08-12",
+   "last": "2026-11-17",
+   "mode": "full",
+   "retrieved_at": "2026-11-17T14:04:00+00:00",
+   "rows": 6025
+  },
+  "statements": {
+   "periods": {
+    "balance_annual": 5,
+    "balance_quarterly": 3,
+    "cashflow_annual": 5,
+    "cashflow_quarterly": 0,
+    "income_annual": 5,
+    "income_quarterly": 7
+   },
+   "retrieved_at": "2026-11-17T14:04:02+00:00"
+  }
+ },
+ "HDFCBANK.NS": {
+  "info": {
+   "retrieved_at": "2026-11-17T14:04:04+00:00"
+  },
+  "prices": {
+   "first": "1996-01-01",
+   "last": "2026-11-17",
+   "mode": "full",
+   "retrieved_at": "2026-11-17T14:04:01+00:00",
+   "rows": 7749
+  },
+  "statements": {
+   "periods": {
+    "balance_annual": 4,
+    "balance_quarterly": 4,
+    "cashflow_annual": 4,
+    "cashflow_quarterly": 0,
+    "income_annual": 4,
+    "income_quarterly": 2
+   },
+   "retrieved_at": "2026-11-17T14:04:03+00:00"
+  }
+ },
+ "HDFCLIFE.NS": {
+  "info": {
+   "retrieved_at": "2026-11-17T14:04:04+00:00"
+  },
+  "prices": {
+   "first": "2017-11-17",
+   "last": "2026-11-17",
+   "mode": "full",
+   "retrieved_at": "2026-11-17T14:04:01+00:00",
+   "rows": 2222
+  },
+  "statements": {
+   "periods": {
+    "balance_annual": 5,
+    "balance_quarterly": 6,
+    "cashflow_annual": 5,
+    "cashflow_quarterly": 0,
+    "income_annual": 4,
+    "income_quarterly": 6
+   },
+   "retrieved_at": "2026-11-17T14:04:04+00:00"
+  }
+ },
+ "HINDALCO.NS": {
+  "info": {
+   "retrieved_at": "2026-11-17T14:04:06+00:00"
+  },
+  "prices": {
+   "first": "1996-01-01",
+   "last": "2026-11-17",
+   "mode": "full",
+   "retrieved_at": "2026-11-17T14:04:03+00:00",
+   "rows": 7749
+  },
+  "statements": {
+   "periods": {
+    "balance_annual": 5,
+    "balance_quarterly": 4,
+    "cashflow_annual": 5,
+    "cashflow_quarterly": 0,
+    "income_annual": 5,
+    "income_quarterly": 5
+   },
+   "retrieved_at": "2026-11-17T14:04:06+00:00"
+  }
+ },
+ "HINDUNILVR.NS": {
+  "info": {
+   "retrieved_at": "2026-11-17T14:04:06+00:00"
+  },
+  "prices": {
+   "first": "1996-01-01",
+   "last": "2026-11-17",
+   "mode": "full",
+   "retrieved_at": "2026-11-17T14:04:03+00:00",
+   "rows": 7749
+  },
+  "statements": {
+   "periods": {
+    "balance_annual": 4,
+    "balance_quarterly": 3,
+    "cashflow_annual": 5,
+    "cashflow_quarterly": 0,
+    "income_annual": 5,
+    "income_quarterly": 7
+   },
+   "retrieved_at": "2026-11-17T14:04:05+00:00"
+  }
+ },
+ "ICICIBANK.NS": {
+  "info": {
+   "retrieved_at": "2026-11-17T14:04:07+00:00"
+  },
+  "prices": {
+   "first": "2002-07-01",
+   "last": "2026-11-17",
+   "mode": "full",
+   "retrieved_at": "2026-11-17T14:04:05+00:00",
+   "rows": 6051
+  },
+  "statements": {
+   "periods": {
+    "balance_annual": 5,
+    "balance_quarterly": 7,
+    "cashflow_annual": 5,
+    "cashflow_quarterly": 0,
+    "income_annual": 5,
+    "income_quarterly": 7
+   },
+   "retrieved_at": "2026-11-17T14:04:07+00:00"
+  }
+ },
+ "INDIGO.NS": {
+  "info": {
+   "retrieved_at": "2026-11-17T14:04:08+00:00"
+  },
+  "prices": {
+   "first": "2015-11-10",
+   "last": "2026-11-17",
+   "mode": "full",
+   "retrieved_at": "2026-11-17T14:04:05+00:00",
+   "rows": 2720
+  },
+  "statements": {
+   "periods": {
+    "balance_annual": 5,
+    "balance_quarterly": 3,
+    "cashflow_annual": 5,
+    "cashflow_quarterly": 0,
+    "income_annual": 4,
+    "income_quarterly": 6
+   },
+   "retrieved_at": "2026-11-17T14:04:07+00:00"
+  }
+ },
+ "INFY.NS": {
+  "info": {
+   "retrieved_at": "2026-11-17T14:04:09+00:00"
+  },
+  "prices": {
+   "first": "1996-01-01",
+   "last": "2026-11-17",
+   "mode": "full",
+   "retrieved_at": "2026-11-17T14:04:06+00:00",
+   "rows": 7749
+  },
+  "statements": {
+   "periods": {
+    "balance_annual": 5,
+    "balance_quarterly": 7,
+    "cashflow_annual": 5,
+    "cashflow_quarterly": 6,
+    "income_annual": 5,
+    "income_quarterly": 7
+   },
+   "retrieved_at": "2026-11-17T14:04:09+00:00"
+  }
+ },
+ "ITC.NS": {
+  "info": {
+   "retrieved_at": "2026-11-17T14:04:10+00:00"
+  },
+  "prices": {
+   "first": "1996-01-01",
+   "last": "2026-11-17",
+   "mode": "full",
+   "retrieved_at": "2026-11-17T14:04:07+00:00",
+   "rows": 7746
+  },
+  "statements": {
+   "periods": {
+    "balance_annual": 5,
+    "balance_quarterly": 3,
+    "cashflow_annual": 5,
+    "cashflow_quarterly": 0,
+    "income_annual": 5,
+    "income_quarterly": 7
+   },
+   "retrieved_at": "2026-11-17T14:04:09+00:00"
+  }
+ },
+ "JIOFIN.NS": {
+  "info": {
+   "retrieved_at": "2026-11-17T14:04:10+00:00"
+  },
+  "prices": {
+   "first": "2023-08-21",
+   "last": "2026-11-17",
+   "mode": "full",
+   "retrieved_at": "2026-11-17T14:04:08+00:00",
+   "rows": 800
+  },
+  "statements": {
+   "periods": {
+    "balance_annual": 5,
+    "balance_quarterly": 3,
+    "cashflow_annual": 5,
+    "cashflow_quarterly": 0,
+    "income_annual": 4,
+    "income_quarterly": 5
+   },
+   "retrieved_at": "2026-11-17T14:04:10+00:00"
+  }
+ },
+ "JSWSTEEL.NS": {
+  "info": {
+   "retrieved_at": "2026-11-17T14:04:11+00:00"
+  },
+  "prices": {
+   "first": "2003-05-08",
+   "last": "2026-11-17",
+   "mode": "full",
+   "retrieved_at": "2026-11-17T14:04:08+00:00",
+   "rows": 5831
+  },
+  "statements": {
+   "periods": {
+    "balance_annual": 5,
+    "balance_quarterly": 3,
+    "cashflow_annual": 5,
+    "cashflow_quarterly": 0,
+    "income_annual": 4,
+    "income_quarterly": 6
+   },
+   "retrieved_at": "2026-11-17T14:04:11+00:00"
+  }
+ },
+ "KOTAKBANK.NS": {
+  "info": {
+   "retrieved_at": "2026-11-17T14:04:12+00:00"
+  },
+  "prices": {
+   "first": "2001-07-02",
+   "last": "2026-11-17",
+   "mode": "full",
+   "retrieved_at": "2026-11-17T14:04:10+00:00",
+   "rows": 6313
+  },
+  "statements": {
+   "periods": {
+    "balance_annual": 5,
+    "balance_quarterly": 4,
+    "cashflow_annual": 5,
+    "cashflow_quarterly": 0,
+    "income_annual": 5,
+    "income_quarterly": 7
+   },
+   "retrieved_at": "2026-11-17T14:04:12+00:00"
+  }
+ },
+ "LT.NS": {
+  "info": {
+   "retrieved_at": "2026-11-17T14:04:14+00:00"
+  },
+  "prices": {
+   "first": "2002-07-01",
+   "last": "2026-11-17",
+   "mode": "full",
+   "retrieved_at": "2026-11-17T14:04:11+00:00",
+   "rows": 6054
+  },
+  "statements": {
+   "periods": {
+    "balance_annual": 5,
+    "balance_quarterly": 3,
+    "cashflow_annual": 5,
+    "cashflow_quarterly": 0,
+    "income_annual": 5,
+    "income_quarterly": 6
+   },
+   "retrieved_at": "2026-11-17T14:04:13+00:00"
+  }
+ },
+ "M&M.NS": {
+  "info": {
+   "retrieved_at": "2026-11-17T14:04:15+00:00"
+  },
+  "prices": {
+   "first": "1996-01-01",
+   "last": "2026-11-17",
+   "mode": "full",
+   "retrieved_at": "2026-11-17T14:04:11+00:00",
+   "rows": 7747
+  },
+  "statements": {
+   "periods": {
+    "balance_annual": 5,
+    "balance_quarterly": 3,
+    "cashflow_annual": 5,
+    "cashflow_quarterly": 0,
+    "income_annual": 5,
+    "income_quarterly": 6
+   },
+   "retrieved_at": "2026-11-17T14:04:14+00:00"
+  }
+ },
+ "MARUTI.NS": {
+  "info": {
+   "retrieved_at": "2026-11-17T14:04:15+00:00"
+  },
+  "prices": {
+   "first": "2003-07-09",
+   "last": "2026-11-17",
+   "mode": "full",
+   "retrieved_at": "2026-11-17T14:04:12+00:00",
+   "rows": 5787
+  },
+  "statements": {
+   "periods": {
+    "balance_annual": 5,
+    "balance_quarterly": 3,
+    "cashflow_annual": 5,
+    "cashflow_quarterly": 0,
+    "income_annual": 5,
+    "income_quarterly": 6
+   },
+   "retrieved_at": "2026-11-17T14:04:14+00:00"
+  }
+ },
+ "MAXHEALTH.NS": {
+  "info": {
+   "retrieved_at": "2026-11-17T14:04:15+00:00"
+  },
+  "prices": {
+   "first": "2020-08-21",
+   "last": "2026-11-17",
+   "mode": "full",
+   "retrieved_at": "2026-11-17T14:04:12+00:00",
+   "rows": 1544
+  },
+  "statements": {
+   "periods": {
+    "balance_annual": 5,
+    "balance_quarterly": 4,
+    "cashflow_annual": 5,
+    "cashflow_quarterly": 0,
+    "income_annual": 4,
+    "income_quarterly": 6
+   },
+   "retrieved_at": "2026-11-17T14:04:14+00:00"
+  }
+ },
+ "NESTLEIND.NS": {
+  "info": {
+   "retrieved_at": "2026-11-17T14:04:17+00:00"
+  },
+  "prices": {
+   "first": "2002-08-12",
+   "last": "2026-11-17",
+   "mode": "full",
+   "retrieved_at": "2026-11-17T14:04:14+00:00",
+   "rows": 6024
+  },
+  "statements": {
+   "periods": {
+    "balance_annual": 4,
+    "balance_quarterly": 3,
+    "cashflow_annual": 4,
+    "cashflow_quarterly": 0,
+    "income_annual": 4,
+    "income_quarterly": 6
+   },
+   "retrieved_at": "2026-11-17T14:04:16+00:00"
+  }
+ },
+ "NTPC.NS": {
+  "info": {
+   "retrieved_at": "2026-11-17T14:04:18+00:00"
+  },
+  "prices": {
+   "first": "2004-11-05",
+   "last": "2026-11-17",
+   "mode": "full",
+   "retrieved_at": "2026-11-17T14:04:15+00:00",
+   "rows": 5440
+  },
+  "statements": {
+   "periods": {
+    "balance_annual": 5,
+    "balance_quarterly": 3,
+    "cashflow_annual": 5,
+    "cashflow_quarterly": 0,
+    "income_annual": 5,
+    "income_quarterly": 6
+   },
+   "retrieved_at": "2026-11-17T14:04:17+00:00"
+  }
+ },
+ "ONGC.NS": {
+  "info": {
+   "retrieved_at": "2026-11-17T14:04:18+00:00"
+  },
+  "prices": {
+   "first": "1996-01-01",
+   "last": "2026-11-17",
+   "mode": "full",
+   "retrieved_at": "2026-11-17T14:04:15+00:00",
+   "rows": 7746
+  },
+  "statements": {
+   "periods": {
+    "balance_annual": 5,
+    "balance_quarterly": 4,
+    "cashflow_annual": 5,
+    "cashflow_quarterly": 0,
+    "income_annual": 4,
+    "income_quarterly": 5
+   },
+   "retrieved_at": "2026-11-17T14:04:17+00:00"
+  }
+ },
+ "POWERGRID.NS": {
+  "info": {
+   "retrieved_at": "2026-11-17T14:04:18+00:00"
+  },
+  "prices": {
+   "first": "2007-10-05",
+   "last": "2026-11-17",
+   "mode": "full",
+   "retrieved_at": "2026-11-17T14:04:15+00:00",
+   "rows": 4713
+  },
+  "statements": {
+   "periods": {
+    "balance_annual": 5,
+    "balance_quarterly": 3,
+    "cashflow_annual": 5,
+    "cashflow_quarterly": 0,
+    "income_annual": 5,
+    "income_quarterly": 6
+   },
+   "retrieved_at": "2026-11-17T14:04:17+00:00"
+  }
+ },
+ "RELIANCE.NS": {
+  "info": {
+   "retrieved_at": "2026-11-17T14:04:20+00:00"
+  },
+  "prices": {
+   "first": "1996-01-01",
+   "last": "2026-11-17",
+   "mode": "full",
+   "retrieved_at": "2026-11-17T14:04:17+00:00",
+   "rows": 7746
+  },
+  "statements": {
+   "periods": {
+    "balance_annual": 5,
+    "balance_quarterly": 4,
+    "cashflow_annual": 5,
+    "cashflow_quarterly": 0,
+    "income_annual": 5,
+    "income_quarterly": 5
+   },
+   "retrieved_at": "2026-11-17T14:04:19+00:00"
+  }
+ },
+ "SBILIFE.NS": {
+  "info": {
+   "retrieved_at": "2026-11-17T14:04:20+00:00"
+  },
+  "prices": {
+   "first": "2017-10-03",
+   "last": "2026-11-17",
+   "mode": "full",
+   "retrieved_at": "2026-11-17T14:04:18+00:00",
+   "rows": 2254
+  },
+  "statements": {
+   "periods": {
+    "balance_annual": 5,
+    "balance_quarterly": 6,
+    "cashflow_annual": 5,
+    "cashflow_quarterly": 0,
+    "income_annual": 5,
+    "income_quarterly": 5
+   },
+   "retrieved_at": "2026-11-17T14:04:20+00:00"
+  }
+ },
+ "SBIN.NS": {
+  "info": {
+   "retrieved_at": "2026-11-17T14:04:20+00:00"
+  },
+  "prices": {
+   "first": "1996-01-01",
+   "last": "2026-11-17",
+   "mode": "full",
+   "retrieved_at": "2026-11-17T14:04:18+00:00",
+   "rows": 7747
+  },
+  "statements": {
+   "periods": {
+    "balance_annual": 4,
+    "balance_quarterly": 6,
+    "cashflow_annual": 5,
+    "cashflow_quarterly": 0,
+    "income_annual": 4,
+    "income_quarterly": 7
+   },
+   "retrieved_at": "2026-11-17T14:04:20+00:00"
+  }
+ },
+ "SHRIRAMFIN.NS": {
+  "info": {
+   "retrieved_at": "2026-11-17T14:04:21+00:00"
+  },
+  "prices": {
+   "first": "2002-07-01",
+   "last": "2026-11-17",
+   "mode": "full",
+   "retrieved_at": "2026-11-17T14:04:19+00:00",
+   "rows": 6054
+  },
+  "statements": {
+   "periods": {
+    "balance_annual": 5,
+    "balance_quarterly": 3,
+    "cashflow_annual": 4,
+    "cashflow_quarterly": 0,
+    "income_annual": 4,
+    "income_quarterly": 5
+   },
+   "retrieved_at": "2026-11-17T14:04:20+00:00"
+  }
+ },
+ "SUNPHARMA.NS": {
+  "info": {
+   "retrieved_at": "2026-11-17T14:04:23+00:00"
+  },
+  "prices": {
+   "first": "1996-01-01",
+   "last": "2026-11-17",
+   "mode": "full",
+   "retrieved_at": "2026-11-17T14:04:20+00:00",
+   "rows": 7749
+  },
+  "statements": {
+   "periods": {
+    "balance_annual": 5,
+    "balance_quarterly": 3,
+    "cashflow_annual": 4,
+    "cashflow_quarterly": 0,
+    "income_annual": 4,
+    "income_quarterly": 6
+   },
+   "retrieved_at": "2026-11-17T14:04:22+00:00"
+  }
+ },
+ "TATACONSUM.NS": {
+  "info": {
+   "retrieved_at": "2026-11-17T14:04:23+00:00"
+  },
+  "prices": {
+   "first": "1996-01-01",
+   "last": "2026-11-17",
+   "mode": "full",
+   "retrieved_at": "2026-11-17T14:04:21+00:00",
+   "rows": 7746
+  },
+  "statements": {
+   "periods": {
+    "balance_annual": 5,
+    "balance_quarterly": 3,
+    "cashflow_annual": 5,
+    "cashflow_quarterly": 0,
+    "income_annual": 5,
+    "income_quarterly": 5
+   },
+   "retrieved_at": "2026-11-17T14:04:23+00:00"
+  }
+ },
+ "TATASTEEL.NS": {
+  "info": {
+   "retrieved_at": "2026-11-17T14:04:23+00:00"
+  },
+  "prices": {
+   "first": "1996-01-01",
+   "last": "2026-11-17",
+   "mode": "full",
+   "retrieved_at": "2026-11-17T14:04:21+00:00",
+   "rows": 7749
+  },
+  "statements": {
+   "periods": {
+    "balance_annual": 5,
+    "balance_quarterly": 4,
+    "cashflow_annual": 5,
+    "cashflow_quarterly": 0,
+    "income_annual": 5,
+    "income_quarterly": 5
+   },
+   "retrieved_at": "2026-11-17T14:04:23+00:00"
+  }
+ },
+ "TCS.NS": {
+  "info": {
+   "retrieved_at": "2026-11-17T14:04:24+00:00"
+  },
+  "prices": {
+   "first": "2002-08-12",
+   "last": "2026-11-17",
+   "mode": "full",
+   "retrieved_at": "2026-11-17T14:04:21+00:00",
+   "rows": 6022
+  },
+  "statements": {
+   "periods": {
+    "balance_annual": 5,
+    "balance_quarterly": 6,
+    "cashflow_annual": 5,
+    "cashflow_quarterly": 7,
+    "income_annual": 4,
+    "income_quarterly": 5
+   },
+   "retrieved_at": "2026-11-17T14:04:23+00:00"
+  }
+ },
+ "TECHM.NS": {
+  "info": {
+   "retrieved_at": "2026-11-17T14:04:26+00:00"
+  },
+  "prices": {
+   "first": "2006-08-28",
+   "last": "2026-11-17",
+   "mode": "full",
+   "retrieved_at": "2026-11-17T14:04:23+00:00",
+   "rows": 4988
+  },
+  "statements": {
+   "periods": {
+    "balance_annual": 5,
+    "balance_quarterly": 4,
+    "cashflow_annual": 5,
+    "cashflow_quarterly": 0,
+    "income_annual": 5,
+    "income_quarterly": 6
+   },
+   "retrieved_at": "2026-11-17T14:04:25+00:00"
+  }
+ },
+ "TITAN.NS": {
+  "info": {
+   "retrieved_at": "2026-11-17T14:04:26+00:00"
+  },
+  "prices": {
+   "first": "1996-01-01",
+   "last": "2026-11-17",
+   "mode": "full",
+   "retrieved_at": "2026-11-17T14:04:24+00:00",
+   "rows": 7749
+  },
+  "statements": {
+   "periods": {
+    "balance_annual": 5,
+    "balance_quarterly": 3,
+    "cashflow_annual": 5,
+    "cashflow_quarterly": 0,
+    "income_annual": 4,
+    "income_quarterly": 6
+   },
+   "retrieved_at": "2026-11-17T14:04:25+00:00"
+  }
+ },
+ "TMPV.NS": {
+  "info": {
+   "retrieved_at": "2026-11-17T14:04:26+00:00"
+  },
+  "prices": {
+   "first": "1991-01-02",
+   "last": "2026-11-17",
+   "mode": "full",
+   "retrieved_at": "2026-11-17T14:04:24+00:00",
+   "rows": 9052
+  },
+  "statements": {
+   "periods": {
+    "balance_annual": 5,
+    "balance_quarterly": 4,
+    "cashflow_annual": 5,
+    "cashflow_quarterly": 0,
+    "income_annual": 5,
+    "income_quarterly": 7
+   },
+   "retrieved_at": "2026-11-17T14:04:26+00:00"
+  }
+ },
+ "TRENT.NS": {
+  "info": {
+   "retrieved_at": "2026-11-17T14:04:27+00:00"
+  },
+  "prices": {
+   "first": "2002-07-01",
+   "last": "2026-11-17",
+   "mode": "full",
+   "retrieved_at": "2026-11-17T14:04:25+00:00",
+   "rows": 6051
+  },
+  "statements": {
+   "periods": {
+    "balance_annual": 5,
+    "balance_quarterly": 4,
+    "cashflow_annual": 5,
+    "cashflow_quarterly": 0,
+    "income_annual": 5,
+    "income_quarterly": 5
+   },
+   "retrieved_at": "2026-11-17T14:04:26+00:00"
+  }
+ },
+ "ULTRACEMCO.NS": {
+  "info": {
+   "retrieved_at": "2026-11-17T14:04:28+00:00"
+  },
+  "prices": {
+   "first": "2002-08-12",
+   "last": "2026-11-17",
+   "mode": "full",
+   "retrieved_at": "2026-11-17T14:04:26+00:00",
+   "rows": 6021
+  },
+  "statements": {
+   "periods": {
+    "balance_annual": 5,
+    "balance_quarterly": 3,
+    "cashflow_annual": 5,
+    "cashflow_quarterly": 0,
+    "income_annual": 5,
+    "income_quarterly": 6
+   },
+   "retrieved_at": "2026-11-17T14:04:28+00:00"
+  }
+ },
+ "USDINR=X": {
+  "prices": {
+   "first": "2003-12-01",
+   "last": "2026-11-17",
+   "mode": "full",
+   "retrieved_at": "2026-11-17T14:09:50+00:00",
+   "rows": 5955
+  }
+ },
+ "^NSEI": {
+  "info": {
+   "retrieved_at": "2026-11-17T14:03:43+00:00"
+  },
+  "prices": {
+   "first": "2007-09-17",
+   "last": "2026-11-17",
+   "mode": "full",
+   "retrieved_at": "2026-11-17T14:03:42+00:00",
+   "rows": 4702
+  }
+ },
+ "_last_run": {
+  "failures": {},
+  "finished_at": "2026-11-17T14:04:28+00:00",
+  "seconds": 47.5,
+  "universe": {
+   "count": 50,
+   "retrieved_at": "2026-11-17T14:03:41+00:00",
+   "source": "https://nsearchives.nseindia.com/content/indices/ind_nifty50list.csv",
+   "stale": false
+  }
+ }
+}

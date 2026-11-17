@@ -1,0 +1,140 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ----------------------------------------------------------------------------
+   Artha design tokens. Values are RGB triplets so Tailwind can apply alpha.
+   Series colours follow a CVD-validated categorical order (fixed, never cycled).
+---------------------------------------------------------------------------- */
+:root,
+:root[data-theme="light"] {
+  color-scheme: light;
+  --bg: 246 244 239;
+  --surface: 255 255 254;
+  --raised: 240 237 230;
+  --line: 224 220 210;
+  --ink: 21 22 26;
+  --ink-2: 82 81 78;
+  --ink-3: 137 135 129;
+  --accent: 176 108 12;
+  --up: 0 122 84;
+  --down: 199 49 49;
+  --warn: 196 132 0;
+  --grid: 232 229 221;
+  --s1: #2a78d6; --s2: #eb6834; --s3: #1baf7a; --s4: #eda100;
+  --s5: #e87ba4; --s6: #008300; --s7: #6250d6; --s8: #e34948;
+  --div-neg: #c73131; --div-mid: #ece9e2; --div-pos: #007a54;
+}
+
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --bg: 9 10 13;
+  --surface: 17 19 24;
+  --raised: 25 28 35;
+  --line: 37 41 50;
+  --ink: 236 234 228;
+  --ink-2: 168 168 162;
+  --ink-3: 112 114 120;
+  --accent: 232 163 61;
+  --up: 38 196 141;
+  --down: 240 98 98;
+  --warn: 250 178 25;
+  --grid: 30 33 41;
+  --s1: #3987e5; --s2: #d95926; --s3: #199e70; --s4: #c98500;
+  --s5: #d55181; --s6: #0ca30c; --s7: #9085e9; --s8: #e66767;
+  --div-neg: #d64545; --div-mid: #2a2d35; --div-pos: #1fa978;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  @apply bg-bg text-ink font-sans antialiased;
+  font-feature-settings: "ss01", "cv11";
+  background-image:
+    radial-gradient(1200px 600px at 85% -10%, rgb(var(--accent) / 0.07), transparent 60%),
+    radial-gradient(900px 500px at -10% 110%, rgb(var(--up) / 0.04), transparent 60%);
+  background-attachment: fixed;
+}
+
+/* Grid tracks must be allowed to shrink below their content (prevents mobile overflow). */
+.grid > * {
+  min-width: 0;
+}
+dd,
+p {
+  overflow-wrap: anywhere;
+}
+
+.num {
+  font-family: "Geist Mono", ui-monospace, monospace;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: -0.01em;
+}
+
+::selection {
+  background: rgb(var(--accent) / 0.3);
+}
+
+/* scrollbars */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgb(var(--line)) transparent;
+}
+*::-webkit-scrollbar { width: 8px; height: 8px; }
+*::-webkit-scrollbar-thumb { background: rgb(var(--line)); border-radius: 8px; }
+
+@layer components {
+  .card {
+    @apply rounded-2xl border border-line/80 bg-surface/90 backdrop-blur-sm;
+  }
+  .eyebrow {
+    @apply text-2xs font-medium uppercase tracking-[0.14em] text-ink3;
+  }
+  .btn {
+    @apply inline-flex items-center gap-1.5 rounded-lg border border-line bg-surface px-2.5 py-1.5 text-xs font-medium text-ink2
+      transition-colors hover:border-ink3/50 hover:text-ink focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent/60
+      disabled:cursor-not-allowed disabled:opacity-40;
+  }
+  .btn-primary {
+    @apply inline-flex items-center gap-1.5 rounded-lg bg-accent px-3 py-1.5 text-xs font-semibold text-[#14110b]
+      transition hover:brightness-110 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent/60 disabled:opacity-40;
+  }
+  .seg {
+    @apply inline-flex max-w-full flex-wrap rounded-lg border border-line bg-raised/60 p-0.5;
+  }
+  .seg > button {
+    @apply rounded-md px-2 py-1 text-2xs font-medium text-ink3 transition-colors hover:text-ink;
+  }
+  .seg > button[aria-pressed="true"] {
+    @apply bg-surface text-ink shadow-sm;
+  }
+  .chip {
+    @apply inline-flex items-center gap-1 rounded-full border border-line px-2 py-0.5 text-2xs text-ink2;
+  }
+  .input {
+    @apply rounded-lg border border-line bg-surface px-2.5 py-1.5 text-xs text-ink placeholder:text-ink3 focus:border-accent/60 focus:outline-none;
+  }
+  .table-head {
+    @apply sticky top-0 z-10 bg-surface text-left text-2xs font-medium uppercase tracking-wider text-ink3;
+  }
+  .skeleton {
+    @apply rounded-lg bg-raised;
+    background-image: linear-gradient(90deg, transparent, rgb(var(--line) / 0.6), transparent);
+    background-size: 400px 100%;
+    background-repeat: no-repeat;
+    animation: shimmer 1.4s linear infinite;
+  }
+}
+
+@keyframes shimmer {
+  0% { background-position: -400px 0; }
+  100% { background-position: 400px 0; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; transition: none !important; }
+}

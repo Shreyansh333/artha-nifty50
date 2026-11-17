@@ -1,0 +1,51 @@
+symbol,yahoo,name,sector,isin,series
+ADANIENT,ADANIENT.NS,Adani Enterprises Ltd.,Metals & Mining,INE423A01024,EQ
+ADANIPORTS,ADANIPORTS.NS,Adani Ports and Special Economic Zone Ltd.,Services,INE742F01042,EQ
+APOLLOHOSP,APOLLOHOSP.NS,Apollo Hospitals Enterprise Ltd.,Healthcare,INE437A01024,EQ
+ASIANPAINT,ASIANPAINT.NS,Asian Paints Ltd.,Consumer Durables,INE021A01026,EQ
+AXISBANK,AXISBANK.NS,Axis Bank Ltd.,Financial Services,INE238A01034,EQ
+BAJAJ-AUTO,BAJAJ-AUTO.NS,Bajaj Auto Ltd.,Automobile and Auto Components,INE917I01010,EQ
+BAJAJFINSV,BAJAJFINSV.NS,Bajaj Finserv Ltd.,Financial Services,INE918I01026,EQ
+BAJFINANCE,BAJFINANCE.NS,Bajaj Finance Ltd.,Financial Services,INE296A01032,EQ
+BEL,BEL.NS,Bharat Electronics Ltd.,Capital Goods,INE263A01024,EQ
+BHARTIARTL,BHARTIARTL.NS,Bharti Airtel Ltd.,Telecommunication,INE397D01024,EQ
+BSE,BSE.NS,BSE Ltd.,Financial Services,INE118H01025,EQ
+CIPLA,CIPLA.NS,Cipla Ltd.,Healthcare,INE059A01026,EQ
+COALINDIA,COALINDIA.NS,Coal India Ltd.,Oil Gas & Consumable Fuels,INE522F01014,EQ
+DRREDDY,DRREDDY.NS,Dr. Reddy's Laboratories Ltd.,Healthcare,INE089A01031,EQ
+EICHERMOT,EICHERMOT.NS,Eicher Motors Ltd.,Automobile and Auto Components,INE066A01021,EQ
+ETERNAL,ETERNAL.NS,Eternal Ltd.,Consumer Services,INE758T01015,EQ
+GRASIM,GRASIM.NS,Grasim Industries Ltd.,Construction Materials,INE047A01021,EQ
+HCLTECH,HCLTECH.NS,HCL Technologies Ltd.,Information Technology,INE860A01027,EQ
+HDFCBANK,HDFCBANK.NS,HDFC Bank Ltd.,Financial Services,INE040A01034,EQ
+HDFCLIFE,HDFCLIFE.NS,HDFC Life Insurance Company Ltd.,Financial Services,INE795G01014,EQ
+HINDALCO,HINDALCO.NS,Hindalco Industries Ltd.,Metals & Mining,INE038A01020,EQ
+HINDUNILVR,HINDUNILVR.NS,Hindustan Unilever Ltd.,Fast Moving Consumer Goods,INE030A01027,EQ
+ICICIBANK,ICICIBANK.NS,ICICI Bank Ltd.,Financial Services,INE090A01021,EQ
+INDIGO,INDIGO.NS,InterGlobe Aviation Ltd.,Services,INE646L01027,EQ
+INFY,INFY.NS,Infosys Ltd.,Information Technology,INE009A01021,EQ
+ITC,ITC.NS,ITC Ltd.,Fast Moving Consumer Goods,INE154A01025,EQ
+JIOFIN,JIOFIN.NS,Jio Financial Services Ltd.,Financial Services,INE758E01017,EQ
+JSWSTEEL,JSWSTEEL.NS,JSW Steel Ltd.,Metals & Mining,INE019A01038,EQ
+KOTAKBANK,KOTAKBANK.NS,Kotak Mahindra Bank Ltd.,Financial Services,INE237A01036,EQ
+LT,LT.NS,Larsen & Toubro Ltd.,Construction,INE018A01030,EQ
+M&M,M&M.NS,Mahindra & Mahindra Ltd.,Automobile and Auto Components,INE101A01026,EQ
+MARUTI,MARUTI.NS,Maruti Suzuki India Ltd.,Automobile and Auto Components,INE585B01010,EQ
+MAXHEALTH,MAXHEALTH.NS,Max Healthcare Institute Ltd.,Healthcare,INE027H01010,EQ
+NESTLEIND,NESTLEIND.NS,Nestle India Ltd.,Fast Moving Consumer Goods,INE239A01024,EQ
+NTPC,NTPC.NS,NTPC Ltd.,Power,INE733E01010,EQ
+ONGC,ONGC.NS,Oil & Natural Gas Corporation Ltd.,Oil Gas & Consumable Fuels,INE213A01029,EQ
+POWERGRID,POWERGRID.NS,Power Grid Corporation of India Ltd.,Power,INE752E01010,EQ
+RELIANCE,RELIANCE.NS,Reliance Industries Ltd.,Oil Gas & Consumable Fuels,INE002A01018,EQ
+SBILIFE,SBILIFE.NS,SBI Life Insurance Company Ltd.,Financial Services,INE123W01016,EQ
+SBIN,SBIN.NS,State Bank of India,Financial Services,INE062A01020,EQ
+SHRIRAMFIN,SHRIRAMFIN.NS,Shriram Finance Ltd.,Financial Services,INE721A01047,EQ
+SUNPHARMA,SUNPHARMA.NS,Sun Pharmaceutical Industries Ltd.,Healthcare,INE044A01036,EQ
+TATACONSUM,TATACONSUM.NS,Tata Consumer Products Ltd.,Fast Moving Consumer Goods,INE192A01025,EQ
+TATASTEEL,TATASTEEL.NS,Tata Steel Ltd.,Metals & Mining,INE081A01020,EQ
+TCS,TCS.NS,Tata Consultancy Services Ltd.,Information Technology,INE467B01029,EQ
+TECHM,TECHM.NS,Tech Mahindra Ltd.,Information Technology,INE669C01036,EQ
+TITAN,TITAN.NS,Titan Company Ltd.,Consumer Durables,INE280A01028,EQ
+TMPV,TMPV.NS,Tata Motors Passenger Vehicles Ltd.,Automobile and Auto Components,INE155A01022,EQ
+TRENT,TRENT.NS,Trent Ltd.,Consumer Services,INE849A01020,EQ
+ULTRACEMCO,ULTRACEMCO.NS,UltraTech Cement Ltd.,Construction Materials,INE481G01011,EQ
