@@ -24,11 +24,11 @@
  "dividendYield": 0.12,
  "trailingAnnualDividendYield": 0.0,
  "payoutRatio": 0.1125,
- "fiftyTwoWeekHigh": 4370.0,
+ "fiftyTwoWeekHigh": 4352.6,
  "fiftyTwoWeekLow": 2183.6667,
- "fiftyDayAverage": 2910.316,
- "twoHundredDayAverage": 2822.0454,
- "averageVolume": 932856,
+ "fiftyDayAverage": 2919.876,
+ "twoHundredDayAverage": 2824.1792,
+ "averageVolume": 931614,
  "regularMarketPrice": 3208.0,
  "previousClose": 3256.1,
  "ebitda": 33076000768,
@@ -41,9 +41,9 @@
  "revenueGrowth": 0.219,
  "earningsGrowth": 0.231,
  "heldPercentInsiders": 0.41856998,
- "heldPercentInstitutions": 0.32072,
+ "heldPercentInstitutions": 0.32092997,
  "recommendationKey": "buy",
  "lastFiscalYearEnd": 1774915200,
  "mostRecentQuarter": 1790726400,
- "_retrieved_at": "2026-11-23T22:56:04+00:00"
+ "_retrieved_at": "2026-11-24T21:37:39+00:00"
 }

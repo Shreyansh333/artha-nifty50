@@ -26,9 +26,9 @@
  "payoutRatio": 0.1893,
  "fiftyTwoWeekHigh": 5186.7,
  "fiftyTwoWeekLow": 3751.0,
- "fiftyDayAverage": 4647.04,
- "twoHundredDayAverage": 4511.0874,
- "averageVolume": 804972,
+ "fiftyDayAverage": 4643.52,
+ "twoHundredDayAverage": 4513.3057,
+ "averageVolume": 817062,
  "regularMarketPrice": 4680.0,
  "previousClose": 4620.0,
  "ebitda": 100550000640,
@@ -41,9 +41,9 @@
  "revenueGrowth": 0.101,
  "earningsGrowth": 1.136,
  "heldPercentInsiders": 0.60561,
- "heldPercentInstitutions": 0.20224,
+ "heldPercentInstitutions": 0.20225,
  "recommendationKey": "buy",
  "lastFiscalYearEnd": 1774915200,
  "mostRecentQuarter": 1790726400,
- "_retrieved_at": "2026-11-23T22:56:04+00:00"
+ "_retrieved_at": "2026-11-24T21:37:38+00:00"
 }
