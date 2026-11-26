@@ -1,14 +1,14 @@
 {
  "ADANIENT.NS": {
   "info": {
-   "retrieved_at": "2026-11-25T20:40:56+00:00"
+   "retrieved_at": "2026-11-26T20:34:12+00:00"
   },
   "prices": {
    "first": "2002-07-01",
-   "last": "2026-11-23",
+   "last": "2026-11-25",
    "mode": "incremental",
-   "retrieved_at": "2026-11-25T20:40:56+00:00",
-   "rows": 6057
+   "retrieved_at": "2026-11-26T20:34:11+00:00",
+   "rows": 6058
   },
   "statements": {
    "periods": {
@@ -24,14 +24,14 @@
  },
  "ADANIPORTS.NS": {
   "info": {
-   "retrieved_at": "2026-11-25T20:40:56+00:00"
+   "retrieved_at": "2026-11-26T20:34:11+00:00"
   },
   "prices": {
    "first": "2007-11-27",
-   "last": "2026-11-23",
+   "last": "2026-11-25",
    "mode": "incremental",
-   "retrieved_at": "2026-11-25T20:40:56+00:00",
-   "rows": 4681
+   "retrieved_at": "2026-11-26T20:34:11+00:00",
+   "rows": 4682
   },
   "statements": {
    "periods": {
@@ -47,14 +47,14 @@
  },
  "APOLLOHOSP.NS": {
   "info": {
-   "retrieved_at": "2026-11-25T20:40:56+00:00"
+   "retrieved_at": "2026-11-26T20:34:12+00:00"
   },
   "prices": {
    "first": "2002-07-01",
-   "last": "2026-11-23",
+   "last": "2026-11-25",
    "mode": "incremental",
-   "retrieved_at": "2026-11-25T20:40:56+00:00",
-   "rows": 6055
+   "retrieved_at": "2026-11-26T20:34:11+00:00",
+   "rows": 6056
   },
   "statements": {
    "periods": {
@@ -70,14 +70,14 @@
  },
  "ASIANPAINT.NS": {
   "info": {
-   "retrieved_at": "2026-11-25T20:40:56+00:00"
+   "retrieved_at": "2026-11-26T20:34:12+00:00"
   },
   "prices": {
    "first": "2002-07-01",
-   "last": "2026-11-23",
+   "last": "2026-11-25",
    "mode": "incremental",
-   "retrieved_at": "2026-11-25T20:40:56+00:00",
-   "rows": 6055
+   "retrieved_at": "2026-11-26T20:34:11+00:00",
+   "rows": 6056
   },
   "statements": {
    "periods": {
@@ -93,14 +93,14 @@
  },
  "AXISBANK.NS": {
   "info": {
-   "retrieved_at": "2026-11-25T20:40:57+00:00"
+   "retrieved_at": "2026-11-26T20:34:12+00:00"
   },
   "prices": {
    "first": "1998-11-27",
-   "last": "2026-11-23",
+   "last": "2026-11-25",
    "mode": "incremental",
-   "retrieved_at": "2026-11-25T20:40:57+00:00",
-   "rows": 6991
+   "retrieved_at": "2026-11-26T20:34:12+00:00",
+   "rows": 6992
   },
   "statements": {
    "periods": {
@@ -116,14 +116,14 @@
  },
  "BAJAJ-AUTO.NS": {
   "info": {
-   "retrieved_at": "2026-11-25T20:40:57+00:00"
+   "retrieved_at": "2026-11-26T20:34:12+00:00"
   },
   "prices": {
    "first": "2002-07-01",
-   "last": "2026-11-23",
+   "last": "2026-11-25",
    "mode": "incremental",
-   "retrieved_at": "2026-11-25T20:40:57+00:00",
-   "rows": 6058
+   "retrieved_at": "2026-11-26T20:34:12+00:00",
+   "rows": 6059
   },
   "statements": {
    "periods": {
@@ -139,14 +139,14 @@
  },
  "BAJAJFINSV.NS": {
   "info": {
-   "retrieved_at": "2026-11-25T20:40:57+00:00"
+   "retrieved_at": "2026-11-26T20:34:12+00:00"
   },
   "prices": {
    "first": "2002-08-12",
-   "last": "2026-11-23",
+   "last": "2026-11-25",
    "mode": "incremental",
-   "retrieved_at": "2026-11-25T20:40:57+00:00",
-   "rows": 6024
+   "retrieved_at": "2026-11-26T20:34:12+00:00",
+   "rows": 6025
   },
   "statements": {
    "periods": {
@@ -162,14 +162,14 @@
  },
  "BAJFINANCE.NS": {
   "info": {
-   "retrieved_at": "2026-11-25T20:40:57+00:00"
+   "retrieved_at": "2026-11-26T20:34:12+00:00"
   },
   "prices": {
    "first": "2002-07-01",
-   "last": "2026-11-23",
+   "last": "2026-11-25",
    "mode": "incremental",
-   "retrieved_at": "2026-11-25T20:40:57+00:00",
-   "rows": 6055
+   "retrieved_at": "2026-11-26T20:34:12+00:00",
+   "rows": 6056
   },
   "statements": {
    "periods": {
@@ -185,14 +185,14 @@
  },
  "BEL.NS": {
   "info": {
-   "retrieved_at": "2026-11-25T20:40:58+00:00"
+   "retrieved_at": "2026-11-26T20:34:13+00:00"
   },
   "prices": {
    "first": "2002-07-01",
-   "last": "2026-11-23",
+   "last": "2026-11-25",
    "mode": "incremental",
-   "retrieved_at": "2026-11-25T20:40:58+00:00",
-   "rows": 6055
+   "retrieved_at": "2026-11-26T20:34:12+00:00",
+   "rows": 6056
   },
   "statements": {
    "periods": {
@@ -208,14 +208,14 @@
  },
  "BHARTIARTL.NS": {
   "info": {
-   "retrieved_at": "2026-11-25T20:40:58+00:00"
+   "retrieved_at": "2026-11-26T20:34:13+00:00"
   },
   "prices": {
    "first": "2002-07-01",
-   "last": "2026-11-23",
+   "last": "2026-11-25",
    "mode": "incremental",
-   "retrieved_at": "2026-11-25T20:40:58+00:00",
-   "rows": 6055
+   "retrieved_at": "2026-11-26T20:34:13+00:00",
+   "rows": 6056
   },
   "statements": {
    "periods": {
@@ -231,14 +231,14 @@
  },
  "BSE.NS": {
   "info": {
-   "retrieved_at": "2026-11-25T20:40:58+00:00"
+   "retrieved_at": "2026-11-26T20:34:13+00:00"
   },
   "prices": {
    "first": "2017-02-03",
-   "last": "2026-11-23",
+   "last": "2026-11-25",
    "mode": "incremental",
-   "retrieved_at": "2026-11-25T20:40:57+00:00",
-   "rows": 2421
+   "retrieved_at": "2026-11-26T20:34:13+00:00",
+   "rows": 2422
   },
   "statements": {
    "periods": {
@@ -254,14 +254,14 @@
  },
  "CIPLA.NS": {
   "info": {
-   "retrieved_at": "2026-11-25T20:40:58+00:00"
+   "retrieved_at": "2026-11-26T20:34:13+00:00"
   },
   "prices": {
    "first": "1996-01-01",
-   "last": "2026-11-23",
+   "last": "2026-11-25",
    "mode": "incremental",
-   "retrieved_at": "2026-11-25T20:40:58+00:00",
-   "rows": 7752
+   "retrieved_at": "2026-11-26T20:34:13+00:00",
+   "rows": 7753
   },
   "statements": {
    "periods": {
@@ -277,14 +277,14 @@
  },
  "COALINDIA.NS": {
   "info": {
-   "retrieved_at": "2026-11-25T20:40:59+00:00"
+   "retrieved_at": "2026-11-26T20:34:13+00:00"
   },
   "prices": {
    "first": "2010-11-04",
-   "last": "2026-11-23",
+   "last": "2026-11-25",
    "mode": "incremental",
-   "retrieved_at": "2026-11-25T20:40:58+00:00",
-   "rows": 3958
+   "retrieved_at": "2026-11-26T20:34:13+00:00",
+   "rows": 3959
   },
   "statements": {
    "periods": {
@@ -300,14 +300,14 @@
  },
  "DRREDDY.NS": {
   "info": {
-   "retrieved_at": "2026-11-25T20:40:59+00:00"
+   "retrieved_at": "2026-11-26T20:34:13+00:00"
   },
   "prices": {
    "first": "1996-01-01",
-   "last": "2026-11-23",
+   "last": "2026-11-25",
    "mode": "incremental",
-   "retrieved_at": "2026-11-25T20:40:58+00:00",
-   "rows": 7750
+   "retrieved_at": "2026-11-26T20:34:13+00:00",
+   "rows": 7751
   },
   "statements": {
    "periods": {
@@ -323,14 +323,14 @@
  },
  "EICHERMOT.NS": {
   "info": {
-   "retrieved_at": "2026-11-25T20:40:59+00:00"
+   "retrieved_at": "2026-11-26T20:34:14+00:00"
   },
   "prices": {
    "first": "1996-01-01",
-   "last": "2026-11-23",
+   "last": "2026-11-25",
    "mode": "incremental",
-   "retrieved_at": "2026-11-25T20:40:58+00:00",
-   "rows": 7750
+   "retrieved_at": "2026-11-26T20:34:13+00:00",
+   "rows": 7751
   },
   "statements": {
    "periods": {
@@ -346,14 +346,14 @@
  },
  "ETERNAL.NS": {
   "info": {
-   "retrieved_at": "2026-11-25T20:40:59+00:00"
+   "retrieved_at": "2026-11-26T20:34:13+00:00"
   },
   "prices": {
    "first": "2021-07-23",
-   "last": "2026-11-23",
+   "last": "2026-11-25",
    "mode": "incremental",
-   "retrieved_at": "2026-11-25T20:40:58+00:00",
-   "rows": 1319
+   "retrieved_at": "2026-11-26T20:34:13+00:00",
+   "rows": 1320
   },
   "statements": {
    "periods": {
@@ -370,31 +370,31 @@
  "EURINR=X": {
   "prices": {
    "first": "2003-12-01",
-   "last": "2026-11-25",
+   "last": "2026-11-26",
    "mode": "full",
-   "retrieved_at": "2026-11-25T20:40:55+00:00",
-   "rows": 5963
+   "retrieved_at": "2026-11-26T20:34:10+00:00",
+   "rows": 5964
   }
  },
  "GBPINR=X": {
   "prices": {
    "first": "2006-05-16",
-   "last": "2026-11-25",
+   "last": "2026-11-26",
    "mode": "full",
-   "retrieved_at": "2026-11-25T20:40:55+00:00",
-   "rows": 5321
+   "retrieved_at": "2026-11-26T20:34:11+00:00",
+   "rows": 5322
   }
  },
  "GRASIM.NS": {
   "info": {
-   "retrieved_at": "2026-11-25T20:40:59+00:00"
+   "retrieved_at": "2026-11-26T20:34:14+00:00"
   },
   "prices": {
    "first": "2002-07-01",
-   "last": "2026-11-23",
+   "last": "2026-11-25",
    "mode": "incremental",
-   "retrieved_at": "2026-11-25T20:40:59+00:00",
-   "rows": 6055
+   "retrieved_at": "2026-11-26T20:34:13+00:00",
+   "rows": 6056
   },
   "statements": {
    "periods": {
@@ -410,14 +410,14 @@
  },
  "HCLTECH.NS": {
   "info": {
-   "retrieved_at": "2026-11-25T20:40:59+00:00"
+   "retrieved_at": "2026-11-26T20:34:14+00:00"
   },
   "prices": {
    "first": "2002-08-12",
-   "last": "2026-11-23",
+   "last": "2026-11-25",
    "mode": "incremental",
-   "retrieved_at": "2026-11-25T20:40:59+00:00",
-   "rows": 6029
+   "retrieved_at": "2026-11-26T20:34:14+00:00",
+   "rows": 6030
   },
   "statements": {
    "periods": {
@@ -433,14 +433,14 @@
  },
  "HDFCBANK.NS": {
   "info": {
-   "retrieved_at": "2026-11-25T20:40:59+00:00"
+   "retrieved_at": "2026-11-26T20:34:14+00:00"
   },
   "prices": {
    "first": "1996-01-01",
-   "last": "2026-11-23",
+   "last": "2026-11-25",
    "mode": "incremental",
-   "retrieved_at": "2026-11-25T20:40:59+00:00",
-   "rows": 7753
+   "retrieved_at": "2026-11-26T20:34:14+00:00",
+   "rows": 7754
   },
   "statements": {
    "periods": {
@@ -456,14 +456,14 @@
  },
  "HDFCLIFE.NS": {
   "info": {
-   "retrieved_at": "2026-11-25T20:40:59+00:00"
+   "retrieved_at": "2026-11-26T20:34:14+00:00"
   },
   "prices": {
    "first": "2017-11-17",
-   "last": "2026-11-23",
+   "last": "2026-11-25",
    "mode": "incremental",
-   "retrieved_at": "2026-11-25T20:40:59+00:00",
-   "rows": 2226
+   "retrieved_at": "2026-11-26T20:34:14+00:00",
+   "rows": 2227
   },
   "statements": {
    "periods": {
@@ -479,14 +479,14 @@
  },
  "HINDALCO.NS": {
   "info": {
-   "retrieved_at": "2026-11-25T20:41:00+00:00"
+   "retrieved_at": "2026-11-26T20:34:14+00:00"
   },
   "prices": {
    "first": "1996-01-01",
-   "last": "2026-11-23",
+   "last": "2026-11-25",
    "mode": "incremental",
-   "retrieved_at": "2026-11-25T20:41:00+00:00",
-   "rows": 7753
+   "retrieved_at": "2026-11-26T20:34:14+00:00",
+   "rows": 7754
   },
   "statements": {
    "periods": {
@@ -502,14 +502,14 @@
  },
  "HINDUNILVR.NS": {
   "info": {
-   "retrieved_at": "2026-11-25T20:41:00+00:00"
+   "retrieved_at": "2026-11-26T20:34:14+00:00"
   },
   "prices": {
    "first": "1996-01-01",
-   "last": "2026-11-23",
+   "last": "2026-11-25",
    "mode": "incremental",
-   "retrieved_at": "2026-11-25T20:41:00+00:00",
-   "rows": 7753
+   "retrieved_at": "2026-11-26T20:34:14+00:00",
+   "rows": 7754
   },
   "statements": {
    "periods": {
@@ -525,14 +525,14 @@
  },
  "ICICIBANK.NS": {
   "info": {
-   "retrieved_at": "2026-11-25T20:41:00+00:00"
+   "retrieved_at": "2026-11-26T20:34:15+00:00"
   },
   "prices": {
    "first": "2002-07-01",
-   "last": "2026-11-23",
+   "last": "2026-11-25",
    "mode": "incremental",
-   "retrieved_at": "2026-11-25T20:41:00+00:00",
-   "rows": 6055
+   "retrieved_at": "2026-11-26T20:34:14+00:00",
+   "rows": 6056
   },
   "statements": {
    "periods": {
@@ -548,14 +548,14 @@
  },
  "INDIGO.NS": {
   "info": {
-   "retrieved_at": "2026-11-25T20:41:00+00:00"
+   "retrieved_at": "2026-11-26T20:34:15+00:00"
   },
   "prices": {
    "first": "2015-11-10",
-   "last": "2026-11-23",
+   "last": "2026-11-25",
    "mode": "incremental",
-   "retrieved_at": "2026-11-25T20:41:00+00:00",
-   "rows": 2724
+   "retrieved_at": "2026-11-26T20:34:14+00:00",
+   "rows": 2725
   },
   "statements": {
    "periods": {
@@ -571,14 +571,14 @@
  },
  "INFY.NS": {
   "info": {
-   "retrieved_at": "2026-11-25T20:41:01+00:00"
+   "retrieved_at": "2026-11-26T20:34:15+00:00"
   },
   "prices": {
    "first": "1996-01-01",
-   "last": "2026-11-23",
+   "last": "2026-11-25",
    "mode": "incremental",
-   "retrieved_at": "2026-11-25T20:41:00+00:00",
-   "rows": 7753
+   "retrieved_at": "2026-11-26T20:34:14+00:00",
+   "rows": 7754
   },
   "statements": {
    "periods": {
@@ -594,14 +594,14 @@
  },
  "ITC.NS": {
   "info": {
-   "retrieved_at": "2026-11-25T20:41:01+00:00"
+   "retrieved_at": "2026-11-26T20:34:15+00:00"
   },
   "prices": {
    "first": "1996-01-01",
-   "last": "2026-11-23",
+   "last": "2026-11-25",
    "mode": "incremental",
-   "retrieved_at": "2026-11-25T20:41:00+00:00",
-   "rows": 7750
+   "retrieved_at": "2026-11-26T20:34:15+00:00",
+   "rows": 7751
   },
   "statements": {
    "periods": {
@@ -617,14 +617,14 @@
  },
  "JIOFIN.NS": {
   "info": {
-   "retrieved_at": "2026-11-25T20:41:01+00:00"
+   "retrieved_at": "2026-11-26T20:34:15+00:00"
   },
   "prices": {
    "first": "2023-08-21",
-   "last": "2026-11-23",
+   "last": "2026-11-25",
    "mode": "incremental",
-   "retrieved_at": "2026-11-25T20:41:00+00:00",
-   "rows": 804
+   "retrieved_at": "2026-11-26T20:34:15+00:00",
+   "rows": 805
   },
   "statements": {
    "periods": {
@@ -640,14 +640,14 @@
  },
  "JSWSTEEL.NS": {
   "info": {
-   "retrieved_at": "2026-11-25T20:41:01+00:00"
+   "retrieved_at": "2026-11-26T20:34:15+00:00"
   },
   "prices": {
    "first": "2003-05-08",
-   "last": "2026-11-23",
+   "last": "2026-11-25",
    "mode": "incremental",
-   "retrieved_at": "2026-11-25T20:41:00+00:00",
-   "rows": 5835
+   "retrieved_at": "2026-11-26T20:34:15+00:00",
+   "rows": 5836
   },
   "statements": {
    "periods": {
@@ -663,14 +663,14 @@
  },
  "KOTAKBANK.NS": {
   "info": {
-   "retrieved_at": "2026-11-25T20:41:01+00:00"
+   "retrieved_at": "2026-11-26T20:34:15+00:00"
   },
   "prices": {
    "first": "2001-07-02",
-   "last": "2026-11-23",
+   "last": "2026-11-25",
    "mode": "incremental",
-   "retrieved_at": "2026-11-25T20:41:01+00:00",
-   "rows": 6317
+   "retrieved_at": "2026-11-26T20:34:15+00:00",
+   "rows": 6318
   },
   "statements": {
    "periods": {
@@ -686,14 +686,14 @@
  },
  "LT.NS": {
   "info": {
-   "retrieved_at": "2026-11-25T20:41:01+00:00"
+   "retrieved_at": "2026-11-26T20:34:16+00:00"
   },
   "prices": {
    "first": "2002-07-01",
-   "last": "2026-11-23",
+   "last": "2026-11-25",
    "mode": "incremental",
-   "retrieved_at": "2026-11-25T20:41:01+00:00",
-   "rows": 6058
+   "retrieved_at": "2026-11-26T20:34:15+00:00",
+   "rows": 6059
   },
   "statements": {
    "periods": {
@@ -709,14 +709,14 @@
  },
  "M&M.NS": {
   "info": {
-   "retrieved_at": "2026-11-25T20:41:02+00:00"
+   "retrieved_at": "2026-11-26T20:34:16+00:00"
   },
   "prices": {
    "first": "1996-01-01",
-   "last": "2026-11-23",
+   "last": "2026-11-25",
    "mode": "incremental",
-   "retrieved_at": "2026-11-25T20:41:01+00:00",
-   "rows": 7751
+   "retrieved_at": "2026-11-26T20:34:15+00:00",
+   "rows": 7752
   },
   "statements": {
    "periods": {
@@ -732,14 +732,14 @@
  },
  "MARUTI.NS": {
   "info": {
-   "retrieved_at": "2026-11-25T20:41:02+00:00"
+   "retrieved_at": "2026-11-26T20:34:16+00:00"
   },
   "prices": {
    "first": "2003-07-09",
-   "last": "2026-11-23",
+   "last": "2026-11-25",
    "mode": "incremental",
-   "retrieved_at": "2026-11-25T20:41:01+00:00",
-   "rows": 5791
+   "retrieved_at": "2026-11-26T20:34:15+00:00",
+   "rows": 5792
   },
   "statements": {
    "periods": {
@@ -755,14 +755,14 @@
  },
  "MAXHEALTH.NS": {
   "info": {
-   "retrieved_at": "2026-11-25T20:41:02+00:00"
+   "retrieved_at": "2026-11-26T20:34:16+00:00"
   },
   "prices": {
    "first": "2020-08-21",
-   "last": "2026-11-23",
+   "last": "2026-11-25",
    "mode": "incremental",
-   "retrieved_at": "2026-11-25T20:41:02+00:00",
-   "rows": 1548
+   "retrieved_at": "2026-11-26T20:34:15+00:00",
+   "rows": 1549
   },
   "statements": {
    "periods": {
@@ -778,14 +778,14 @@
  },
  "NESTLEIND.NS": {
   "info": {
-   "retrieved_at": "2026-11-25T20:41:02+00:00"
+   "retrieved_at": "2026-11-26T20:34:16+00:00"
   },
   "prices": {
    "first": "2002-08-12",
-   "last": "2026-11-23",
+   "last": "2026-11-25",
    "mode": "incremental",
-   "retrieved_at": "2026-11-25T20:41:02+00:00",
-   "rows": 6028
+   "retrieved_at": "2026-11-26T20:34:16+00:00",
+   "rows": 6029
   },
   "statements": {
    "periods": {
@@ -801,14 +801,14 @@
  },
  "NTPC.NS": {
   "info": {
-   "retrieved_at": "2026-11-25T20:41:02+00:00"
+   "retrieved_at": "2026-11-26T20:34:16+00:00"
   },
   "prices": {
    "first": "2004-11-05",
-   "last": "2026-11-23",
+   "last": "2026-11-25",
    "mode": "incremental",
-   "retrieved_at": "2026-11-25T20:41:02+00:00",
-   "rows": 5444
+   "retrieved_at": "2026-11-26T20:34:16+00:00",
+   "rows": 5445
   },
   "statements": {
    "periods": {
@@ -824,14 +824,14 @@
  },
  "ONGC.NS": {
   "info": {
-   "retrieved_at": "2026-11-25T20:41:02+00:00"
+   "retrieved_at": "2026-11-26T20:34:16+00:00"
   },
   "prices": {
    "first": "1996-01-01",
-   "last": "2026-11-23",
+   "last": "2026-11-25",
    "mode": "incremental",
-   "retrieved_at": "2026-11-25T20:41:02+00:00",
-   "rows": 7750
+   "retrieved_at": "2026-11-26T20:34:16+00:00",
+   "rows": 7751
   },
   "statements": {
    "periods": {
@@ -847,14 +847,14 @@
  },
  "POWERGRID.NS": {
   "info": {
-   "retrieved_at": "2026-11-25T20:41:02+00:00"
+   "retrieved_at": "2026-11-26T20:34:16+00:00"
   },
   "prices": {
    "first": "2007-10-05",
-   "last": "2026-11-23",
+   "last": "2026-11-25",
    "mode": "incremental",
-   "retrieved_at": "2026-11-25T20:41:02+00:00",
-   "rows": 4717
+   "retrieved_at": "2026-11-26T20:34:16+00:00",
+   "rows": 4718
   },
   "statements": {
    "periods": {
@@ -870,14 +870,14 @@
  },
  "RELIANCE.NS": {
   "info": {
-   "retrieved_at": "2026-11-25T20:41:03+00:00"
+   "retrieved_at": "2026-11-26T20:34:17+00:00"
   },
   "prices": {
    "first": "1996-01-01",
-   "last": "2026-11-23",
+   "last": "2026-11-25",
    "mode": "incremental",
-   "retrieved_at": "2026-11-25T20:41:02+00:00",
-   "rows": 7750
+   "retrieved_at": "2026-11-26T20:34:16+00:00",
+   "rows": 7751
   },
   "statements": {
    "periods": {
@@ -893,14 +893,14 @@
  },
  "SBILIFE.NS": {
   "info": {
-   "retrieved_at": "2026-11-25T20:41:03+00:00"
+   "retrieved_at": "2026-11-26T20:34:17+00:00"
   },
   "prices": {
    "first": "2017-10-03",
-   "last": "2026-11-23",
+   "last": "2026-11-25",
    "mode": "incremental",
-   "retrieved_at": "2026-11-25T20:41:02+00:00",
-   "rows": 2258
+   "retrieved_at": "2026-11-26T20:34:16+00:00",
+   "rows": 2259
   },
   "statements": {
    "periods": {
@@ -916,14 +916,14 @@
  },
  "SBIN.NS": {
   "info": {
-   "retrieved_at": "2026-11-25T20:41:03+00:00"
+   "retrieved_at": "2026-11-26T20:34:17+00:00"
   },
   "prices": {
    "first": "1996-01-01",
-   "last": "2026-11-23",
+   "last": "2026-11-25",
    "mode": "incremental",
-   "retrieved_at": "2026-11-25T20:41:03+00:00",
-   "rows": 7751
+   "retrieved_at": "2026-11-26T20:34:17+00:00",
+   "rows": 7752
   },
   "statements": {
    "periods": {
@@ -939,14 +939,14 @@
  },
  "SHRIRAMFIN.NS": {
   "info": {
-   "retrieved_at": "2026-11-25T20:41:03+00:00"
+   "retrieved_at": "2026-11-26T20:34:17+00:00"
   },
   "prices": {
    "first": "2002-07-01",
-   "last": "2026-11-23",
+   "last": "2026-11-25",
    "mode": "incremental",
-   "retrieved_at": "2026-11-25T20:41:03+00:00",
-   "rows": 6058
+   "retrieved_at": "2026-11-26T20:34:17+00:00",
+   "rows": 6059
   },
   "statements": {
    "periods": {
@@ -962,14 +962,14 @@
  },
  "SUNPHARMA.NS": {
   "info": {
-   "retrieved_at": "2026-11-25T20:41:04+00:00"
+   "retrieved_at": "2026-11-26T20:34:17+00:00"
   },
   "prices": {
    "first": "1996-01-01",
-   "last": "2026-11-23",
+   "last": "2026-11-25",
    "mode": "incremental",
-   "retrieved_at": "2026-11-25T20:41:03+00:00",
-   "rows": 7753
+   "retrieved_at": "2026-11-26T20:34:17+00:00",
+   "rows": 7754
   },
   "statements": {
    "periods": {
@@ -985,14 +985,14 @@
  },
  "TATACONSUM.NS": {
   "info": {
-   "retrieved_at": "2026-11-25T20:41:04+00:00"
+   "retrieved_at": "2026-11-26T20:34:17+00:00"
   },
   "prices": {
    "first": "1996-01-01",
-   "last": "2026-11-23",
+   "last": "2026-11-25",
    "mode": "incremental",
-   "retrieved_at": "2026-11-25T20:41:03+00:00",
-   "rows": 7750
+   "retrieved_at": "2026-11-26T20:34:17+00:00",
+   "rows": 7751
   },
   "statements": {
    "periods": {
@@ -1008,14 +1008,14 @@
  },
  "TATASTEEL.NS": {
   "info": {
-   "retrieved_at": "2026-11-25T20:41:04+00:00"
+   "retrieved_at": "2026-11-26T20:34:17+00:00"
   },
   "prices": {
    "first": "1996-01-01",
-   "last": "2026-11-23",
+   "last": "2026-11-25",
    "mode": "incremental",
-   "retrieved_at": "2026-11-25T20:41:03+00:00",
-   "rows": 7753
+   "retrieved_at": "2026-11-26T20:34:17+00:00",
+   "rows": 7754
   },
   "statements": {
    "periods": {
@@ -1031,14 +1031,14 @@
  },
  "TCS.NS": {
   "info": {
-   "retrieved_at": "2026-11-25T20:41:04+00:00"
+   "retrieved_at": "2026-11-26T20:34:18+00:00"
   },
   "prices": {
    "first": "2002-08-12",
-   "last": "2026-11-23",
+   "last": "2026-11-25",
    "mode": "incremental",
-   "retrieved_at": "2026-11-25T20:41:04+00:00",
-   "rows": 6026
+   "retrieved_at": "2026-11-26T20:34:17+00:00",
+   "rows": 6027
   },
   "statements": {
    "periods": {
@@ -1054,14 +1054,14 @@
  },
  "TECHM.NS": {
   "info": {
-   "retrieved_at": "2026-11-25T20:41:04+00:00"
+   "retrieved_at": "2026-11-26T20:34:18+00:00"
   },
   "prices": {
    "first": "2006-08-28",
-   "last": "2026-11-23",
+   "last": "2026-11-25",
    "mode": "incremental",
-   "retrieved_at": "2026-11-25T20:41:04+00:00",
-   "rows": 4992
+   "retrieved_at": "2026-11-26T20:34:17+00:00",
+   "rows": 4993
   },
   "statements": {
    "periods": {
@@ -1077,14 +1077,14 @@
  },
  "TITAN.NS": {
   "info": {
-   "retrieved_at": "2026-11-25T20:41:04+00:00"
+   "retrieved_at": "2026-11-26T20:34:18+00:00"
   },
   "prices": {
    "first": "1996-01-01",
-   "last": "2026-11-23",
+   "last": "2026-11-25",
    "mode": "incremental",
-   "retrieved_at": "2026-11-25T20:41:04+00:00",
-   "rows": 7753
+   "retrieved_at": "2026-11-26T20:34:18+00:00",
+   "rows": 7754
   },
   "statements": {
    "periods": {
@@ -1100,14 +1100,14 @@
  },
  "TMPV.NS": {
   "info": {
-   "retrieved_at": "2026-11-25T20:41:05+00:00"
+   "retrieved_at": "2026-11-26T20:34:18+00:00"
   },
   "prices": {
    "first": "1991-01-02",
-   "last": "2026-11-23",
+   "last": "2026-11-25",
    "mode": "incremental",
-   "retrieved_at": "2026-11-25T20:41:04+00:00",
-   "rows": 9056
+   "retrieved_at": "2026-11-26T20:34:18+00:00",
+   "rows": 9057
   },
   "statements": {
    "periods": {
@@ -1123,14 +1123,14 @@
  },
  "TRENT.NS": {
   "info": {
-   "retrieved_at": "2026-11-25T20:41:05+00:00"
+   "retrieved_at": "2026-11-26T20:34:18+00:00"
   },
   "prices": {
    "first": "2002-07-01",
-   "last": "2026-11-23",
+   "last": "2026-11-25",
    "mode": "incremental",
-   "retrieved_at": "2026-11-25T20:41:04+00:00",
-   "rows": 6055
+   "retrieved_at": "2026-11-26T20:34:18+00:00",
+   "rows": 6056
   },
   "statements": {
    "periods": {
@@ -1146,14 +1146,14 @@
  },
  "ULTRACEMCO.NS": {
   "info": {
-   "retrieved_at": "2026-11-25T20:41:05+00:00"
+   "retrieved_at": "2026-11-26T20:34:18+00:00"
   },
   "prices": {
    "first": "2002-08-12",
-   "last": "2026-11-23",
+   "last": "2026-11-25",
    "mode": "incremental",
-   "retrieved_at": "2026-11-25T20:41:05+00:00",
-   "rows": 6025
+   "retrieved_at": "2026-11-26T20:34:18+00:00",
+   "rows": 6026
   },
   "statements": {
    "periods": {
@@ -1170,31 +1170,31 @@
  "USDINR=X": {
   "prices": {
    "first": "2003-12-01",
-   "last": "2026-11-25",
-   "mode": "incremental",
-   "retrieved_at": "2026-11-25T20:40:54+00:00",
-   "rows": 5961
+   "last": "2026-11-26",
+   "mode": "full",
+   "retrieved_at": "2026-11-26T20:34:10+00:00",
+   "rows": 5962
   }
  },
  "^NSEI": {
   "info": {
-   "retrieved_at": "2026-11-25T20:40:54+00:00"
+   "retrieved_at": "2026-11-26T20:34:09+00:00"
   },
   "prices": {
    "first": "2007-09-17",
-   "last": "2026-11-23",
+   "last": "2026-11-25",
    "mode": "incremental",
-   "retrieved_at": "2026-11-25T20:40:54+00:00",
-   "rows": 4706
+   "retrieved_at": "2026-11-26T20:34:09+00:00",
+   "rows": 4707
   }
  },
  "_last_run": {
   "failures": {},
-  "finished_at": "2026-11-25T20:41:05+00:00",
-  "seconds": 11.9,
+  "finished_at": "2026-11-26T20:34:18+00:00",
+  "seconds": 9.7,
   "universe": {
    "count": 50,
-   "retrieved_at": "2026-11-25T20:40:53+00:00",
+   "retrieved_at": "2026-11-26T20:34:08+00:00",
    "source": "https://nsearchives.nseindia.com/content/indices/ind_nifty50list.csv",
    "stale": false
   }
